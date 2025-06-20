@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    internal class GameCreator
+    internal class GameCreator : DefaultCreator
     {
-        public static Game CreateMethod(string type) 
+        public static new Game CreateMethod(string type)
         {
             if (type == "CounterStrice")
                 return new CounterStrike();
             else if (type == "Dota")
                 return new Dota();
             else
-                throw new ArgumentException("Invalid argument type");
+                return DefaultCreator.CreateMethod(type);
         }
     }
 }
