@@ -12,9 +12,9 @@ namespace AbstractFactory
         public Car create(string type)
         {
             if (type == "Passat")
-                return new RussianPassat();
+                return new DeutchPassat();
             else if (type == "Golf")
-                return new RussianGolf();
+                return new DeutchGolf();
             else
                 throw new ArgumentException("Invalid type");
         }

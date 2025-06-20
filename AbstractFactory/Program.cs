@@ -6,6 +6,9 @@
         {
             CarFactory factory = new RussianFactory();
             factory.create("Passat");
+
+            factory = new DeutchFactory();
+            factory.create("Golf");
         }
     }
 }
