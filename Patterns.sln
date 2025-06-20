@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{29606CAD-1A55-4797-BBF3-3A0BDF5F01B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{CE030860-DCB6-4C81-8C9C-8AC28442C2DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{BB8A7877-F34E-418F-9157-AFDAA2007262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{29606CAD-1A55-4797-BBF3-3A0BDF5F01B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29606CAD-1A55-4797-BBF3-3A0BDF5F01B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29606CAD-1A55-4797-BBF3-3A0BDF5F01B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE030860-DCB6-4C81-8C9C-8AC28442C2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE030860-DCB6-4C81-8C9C-8AC28442C2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE030860-DCB6-4C81-8C9C-8AC28442C2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE030860-DCB6-4C81-8C9C-8AC28442C2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8A7877-F34E-418F-9157-AFDAA2007262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8A7877-F34E-418F-9157-AFDAA2007262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8A7877-F34E-418F-9157-AFDAA2007262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8A7877-F34E-418F-9157-AFDAA2007262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
