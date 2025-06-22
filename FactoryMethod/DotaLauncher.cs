@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    internal class CounterStrike : Game
+    internal class DotaLauncher : Launcher
     {
-        public CounterStrike() { Console.WriteLine("Welcome to CS2\n"); }
+        protected override Game RunGame()
+        {
+           return new Dota();
+        }
     }
 }

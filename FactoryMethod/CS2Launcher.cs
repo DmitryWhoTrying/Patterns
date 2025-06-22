@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    internal class Dota : Game
+    internal class CS2Launcher : Launcher
     {
-        public void Play()
+        protected override Game RunGame()
         {
-            Console.WriteLine("Playing Dota");
+            return new CS2();
         }
     }
 }

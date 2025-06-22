@@ -8,5 +8,6 @@ namespace FactoryMethod
 {
     internal interface Game
     {
+        public void Play();
     }
 }

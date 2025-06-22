@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    internal class Tetris : Game
+    internal class CS2 : Game
     {
-        public Tetris() 
+        public void Play()
         {
-            Console.WriteLine("I am tetris!\n");
-                }
+            Console.WriteLine("Playing CS2");
+        }
     }
 }

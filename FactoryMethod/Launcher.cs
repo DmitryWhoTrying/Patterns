@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    internal class DefaultCreator
+    abstract class Launcher
     {
-        public static Game CreateMethod(string type)        
+        public void Play()
         {
-            return new Tetris();
+            Game game = RunGame();
+            game.Play();
         }
+
+        protected abstract Game RunGame();
     }
 }

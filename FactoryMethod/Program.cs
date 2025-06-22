@@ -19,9 +19,8 @@
         
         static void Main(string[] args)
         {
-            Game MyGame = GameCreator.CreateMethod("Dota");
-
-            Game bestGame = GameCreator.CreateMethod("best game");
+            Launcher launcher = new CS2Launcher();
+            launcher.Play();
         }
     }
 }
