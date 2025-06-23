@@ -10,16 +10,18 @@ namespace Builder
     {
         public Director() { Console.WriteLine("I am director\n"); }
 
-        public void MakeElectricCar(Builder builder)
+        public Builder MakeElectricCar(Builder builder)
         {
             builder.Reset();
             builder.SetEngine(new ElectricEngine());
+            return builder;
         }
 
-        public void MakeDieselCar(Builder builder)
+        public Builder MakeDieselCar(Builder builder)
         {
             builder.Reset();
             builder.SetEngine(new DieselEngine());
+            return builder;
         }
     }
 }

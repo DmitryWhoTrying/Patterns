@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Builder
 {
-    internal interface Builder
+    internal abstract class Builder
     {
-        public void Reset();
-        public void SetEngine(Engine engine);
+        Engine? engine;
+        public void Reset() { engine = null; }
+        public void SetEngine(Engine engine) { this.engine = engine; }
     }
 }
