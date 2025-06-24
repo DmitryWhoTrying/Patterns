@@ -14,12 +14,12 @@ namespace Builder
         {
             Console.WriteLine("I am Car Builder\n");
         }
-        public void Reset()
+        public new void Reset()
         {
             result = new Car();
         }
 
-        public void SetEngine(Engine engine)
+        public new void SetEngine(Engine engine)
         {
             result.engine = engine;
         }

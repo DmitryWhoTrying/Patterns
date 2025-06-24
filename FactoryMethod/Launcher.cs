@@ -8,9 +8,10 @@ namespace FactoryMethod
 {
     abstract class Launcher
     {
+        Game? game;
         public void Play()
         {
-            Game game = RunGame();
+            game = RunGame();
             game.Play();
         }
 

@@ -17,8 +17,7 @@
     {
         static void Main(string[] args)
         {
-            Game game = new Game(100, 100);
-
+            Game game = new Game(1000, 100);
             game.makeDecision();
         }
     }
